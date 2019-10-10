@@ -10,3 +10,17 @@ N = int(input())
 lines = []
 for i in range(N):
     lines.append(int(input()))
+
+
+#Parcours doble
+M = int(input())
+N = int(input())
+lines = []
+r  =[]
+for i in range(N):
+    a =  input().split(" ")
+    lines.append(int(a[0]))
+    r.append(float(a[1]))
+
+def ints():
+    return list(map(int, input().split()))
