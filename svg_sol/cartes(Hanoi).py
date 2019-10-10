@@ -1,4 +1,6 @@
 import  sys
+""" Solution pour le problème Crapette du concours ORange 2019"""
+
 
 lines = []
 for line in sys.stdin:
