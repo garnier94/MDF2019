@@ -13,3 +13,13 @@ N = int(input())
 table = list()
 for i in range(N):
     table.append(list(input()))
+
+N = int(input())
+table = list()
+for i in range(N):
+    table.append(list(map(int, list(input()))))
+
+N = int(input())
+table = list()
+for i in range(N):
+    table.append(list(map(int, input().split(' '))))
