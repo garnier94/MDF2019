@@ -1,8 +1,8 @@
-"""Manipulation de table Python"""
+"""Manipulation de tableau en Python"""
 
 
 def neighbor_tab(tab, i, j):
-    # Index Voisin en croix
+    # Index des voisin en croix de [i,j] dans le tableau tab
     n = len(tab)
     m = len(tab[0])
 
@@ -17,7 +17,7 @@ def neighbor_tab(tab, i, j):
 
 
 def neighbor_diag(tab, i, j):
-    # Index Voisin en diagonale
+    # Index des voisin en croix et en diagonale de [i,j]
     n = len(tab)
     m = len(tab[0])
 
